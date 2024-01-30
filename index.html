@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&display=swap" rel="stylesheet" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Survery Form | MCU</title>
+  </head>
+
+  <body>
+    <div class="container-background">
+      <div id="background-img">
+        <img src="2.jpg" alt="background-img"/>
+      </div>
+
+      <main id="main-content">
+        <h1 class="text" id="title">Marvel Cinematic Universe Survey Form</h1>
+        <p class="text" id="description" style="font-family: 'Poppins', sans-serif">Thank you for taking the time to help us improve the platform</p>
+
+        <form action="" id="survey-form">
+          <div class="form-input">
+            <label for="name" class="label-block" id="name-label">Name</label>
+            <input type="text" class="font-m wd-wide" id="name" name="name" placeholder="Enter Name" required />
+          </div>
+
+          <div class="form-input">
+            <label for="email" class="label-block" id="email-label">Email</label>
+            <input type="email" class="font-m wd-wide" id="email" name="email" placeholder="Enter Email" required />
+          </div>
+
+          <div class="form-input">
+            <label for="number" class="label-block" id="number-label">Age (optional)</label>
+            <input type="number" class="font-m wd-wide" id="number" name="number" min="1" max="70" placeholder="Enter Age" />
+          </div>
+
+          <div class="form-input">
+            <label for="dropdown" class="label-block" style="font-family: 'Poppins', sans-serif; font-size: 18px">Favorite Movie</label>
+            <select id="dropdown" class="font-m wd-wide" name="jobs">
+              <option value="pilih-sebuah-opsi" disabled selected hidden>select an option</option>
+              <option value="captain-america">Captain Marvel</option>
+              <option value="ironman">Iron Man 2</option>
+              <option value="hulk">Spider-Man : Homecoming</option>
+              <option value="thor">Captain America : Civil War</option>
+              <option value="black-widow">Thor: Ragnarok</option>
+              <option value="spiderman">Spider-Man: No Way Home</option>
+              <option value="doctor-strange">Doctor Strange in the Multiverse of Madness</option>
+              <option value="Scarlet-witch">Avengers Endgame</option>
+              <option value="black-panther">Captain America: The Wwinter Soldier</option>
+              <option
+                value="
+                chose-not-to-say"
+              >
+              chose not to say
+              </option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          
+          <br />
+          
+          <div class="form-input">
+            <p class="label-block">Choose the hero you like most</p>
+            <div class="container-individual-input">
+              <input type="checkbox" id="frontend" value="frontend" />
+              <label for="frontend">Captain America</label>
+            </div>
+
+            <div class="container-individual-input">
+              <input type="checkbox" id="backend" value="backend" />
+              <label for="backend">Iron-Man</label>
+            </div>
+
+            <div class="container-individual-input">
+              <input type="checkbox" id="data-scientist" value="data-scientist" />
+              <label for="data-scientist">Hulk</label>
+            </div>
+
+            <div class="container-individual-input">
+              <input type="checkbox" id="cyber-security" value="cyber-security" />
+              <label for="cyber-security">Thor</label>
+            </div>
+
+            <div class="container-individual-input">
+              <input type="checkbox" id="devops" value="devops" />
+              <label for="devops">Spider-Man</label>
+            </div>
+
+            <div class="container-individual-input">
+              <input type="checkbox" id="blockchain" value="blockchain" />
+              <label for="blockchain">Scarlet Witch</label>
+            </div>
+
+            <div class="container-individual-input">
+              <input type="checkbox" id="computer-science" value="computer-science" />
+              <label for="computer-science">Black Widow</label>
+            </div>
+
+            <div class="container-individual-input">
+              <input type="checkbox" id="machine-learning" value="machine-learning" />
+              <label for="machine-learning">Ant-Man</label>
+            </div>
+
+            <div class="container-individual-input">
+              <input type="checkbox" id="fullstack" value="fullstack" />
+              <label for="fullstack">Doctor Strange</label>
+            </div>
+          </div>
+
+          <div class="form-input">
+            <p class="label-block">comments or suggestions?</p>
+            <textarea name="textarea" class="wd-wide font-m" id="comments" cols="55" rows="5" placeholder="write a comment here....."></textarea>
+          </div>
+
+          <input type="submit" id="submit" class="btn" value="Send" />
+        </form>
+      </main>
+    </div>
+    <footer>
+      <p>
+        Author: Badar Muhammad<br/>
+        <a href="mailto:badar@gmail.com">badar@gmail.com</a>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,130 @@
+.font-m {
+    font-size: 1.2rem;
+  }
+  
+  .wd-wide {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  
+  #main-content {
+    margin: 60px auto;
+  }
+  
+  .text {
+    text-align: center;
+    margin: 10px auto;
+    /* margin-top: -10px; */
+    text-shadow: 2px 2px 4px #000000;
+  }
+  #background-img {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    /* background: linear-gradient(rgba(24, 31, 95, 0.8), rgba(214, 29, 88, 0.8)); */
+     overflow: hidden;
+  }
+  
+  img {
+    width: 100vw;
+    /* opacity: 0.9; */
+  }
+  
+  #title {
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: "Lobster", cursive;
+    font-size: 40px;
+  }
+  
+  /* Form */
+  #survey-form {
+    width: 50%;
+    margin: 30px auto 0;
+    background: #1a1919e3;
+    padding: 30px;
+    border-radius: 5px;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    opacity: 0.9;
+    box-shadow: 2px 2px 8px 2px #020202e3, 2px 2px 8px 1px #000000e3;
+  }
+  
+  .form-input {
+    margin: 5px 0;
+  }
+  
+  .container-individual-input {
+    display: block;
+  }
+  
+  .label-block {
+    display: block;
+  }
+  
+  label {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+  }
+  
+  input[type="checkbox"] {
+    width: 20px;
+    /* height: 20px; */
+    margin-right: 5px;
+    border: none;
+  }
+  
+  input,
+  textarea {
+    border-color: #e96215;
+    border: 1px solid #e96215;
+  }
+  
+  .btn {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: #000;
+    background-image: linear-gradient(310deg, #000000 23%, #e91515 54%);
+    border: none;
+    border-radius: 8px;
+    /* margin-left: 230px; */
+    transition: 0.8s;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    transform: rotateX(150deg);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 3px;
+    color: black;
+    font-family: "Lobster", cursive;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
